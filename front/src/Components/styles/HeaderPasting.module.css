@@ -1,0 +1,193 @@
+.headermain {
+  width: 1920px;
+  height: 1000px;
+  background-color: white;
+  background-image: url(../images/Rectangle\ 64.png);
+  display: flex;
+}
+
+@font-face {
+  font-family: "Refact";
+  src: url(../fonts/Reformagroteskmediumc.otf);
+}
+
+@font-face {
+  font-family: "RefactBold";
+  src: url(../fonts/Reformagroteskboldc.otf);
+}
+
+.wrap {
+  display: flex;
+  margin-left: 312px;
+  margin-top: 40px;
+  position: absolute;
+}
+
+.main {
+  font-family: Refact;
+  color: white;
+  font-size: 24px;
+  margin-left: 40px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.pasting {
+  font-family: Refact;
+  color: white;
+  font-size: 24px;
+  margin-left: 40px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.detailing {
+  font-family: Refact;
+  color: white;
+  font-size: 24px;
+  margin-left: 40px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.gallery {
+  font-family: Refact;
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+  margin-left: 40px;
+  line-height: 28px;
+}
+
+.menu {
+  background-image: url(../images/menu.png);
+  width: 50px;
+  height: 25px;
+  position: absolute;
+  margin-left: 1300px;
+  margin-top: 20px;
+}
+
+.logo {
+  font-family: RefactBold;
+  color: #db3138;
+  font-size: 64px;
+  margin-top: 237px;
+  position: absolute;
+  width: 636px;
+  text-align: center;
+}
+
+.points {
+  background-image: url(../images/points.png);
+  width: 146px;
+  height: 14px;
+  position: absolute;
+  margin-top: 430px;
+  margin-left: 240px;
+}
+
+.paragraph {
+  font-family: Refact;
+  color: white;
+  font-weight: 200;
+  font-size: 40px;
+  margin-left: 100px;
+  position: absolute;
+  width: 437px;
+  margin-top: 486px;
+  text-align: center;
+}
+
+.button {
+  width: 50px;
+  height: 61px;
+  position: absolute;
+  margin-top: 640px;
+  margin-left: 270px;
+  text-align: center;
+}
+
+.service {
+  color: white;
+  font-family: Refact;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 33px;
+  margin-top: 650px;
+  position: absolute;
+  width: 119px;
+  height: 34px;
+  z-index: 1;
+  margin-left: 300px;
+  text-align: center;
+}
+
+.middleblock {
+  position: absolute;
+  margin-left: 330px;
+}
+
+.service {
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 119px;
+  height: 61px;
+  position: absolute;
+  margin-top: 680px;
+  margin-left: 300px;
+  border: 0;
+  font-family: Refact;
+  font-size: 24px;
+  z-index: 5;
+  background: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.service span {
+  margin-left: 25px;
+  font-size: 40px;
+}
+
+h2 {
+  display: block;
+  width: 119px;
+  height: 61px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+  padding-top: 20px;
+  text-align: center;
+}
+
+h2 span {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+h2:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff003b;
+  transition: all 0.35s;
+}
+
+h2:hover {
+  color: #fff;
+}
+
+h2:hover:after {
+  width: 100%;
+}

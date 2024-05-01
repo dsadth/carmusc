@@ -1,0 +1,103 @@
+@font-face {
+  font-family: Refact;
+  src: url(../fonts/Reformagroteskboldc.otf);
+}
+
+@font-face {
+  font-family: Refactmed;
+  src: url(../fonts/Reformagroteskmediumc.otf);
+}
+
+.NeckPasting {
+  width: 1920px;
+  height: 1000px;
+  display: flex;
+  position: absolute;
+  margin-top: 1000px;
+  margin-left: 400px;
+  
+}
+
+.blocks {
+  display: flex;
+}
+
+.heading {
+  width: 450px;
+  height: 135px;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+  font-family: Refact;
+  position: absolute;
+}
+
+.points {
+  background-image: url(../images/points.png);
+  width: 146px;
+  height: 14px;
+  position: absolute;
+  margin-top: 190px;
+}
+
+.paragraph {
+  font-size: 24px;
+  font-family: Refactmed;
+  width: 526px;
+  height: 58px;
+  position: absolute;
+  margin-top: 250px;
+}
+
+.logos {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 350px;
+}
+
+.downblock {
+  margin-left: 50px;
+}
+
+.imagelogoone {
+  background-image: url(../images/PastingImage/logos\ \(3\).png);
+  width: 160px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.imagelogotwo {
+  background-image: url(../images/PastingImage/logos\ \(2\).png);
+  width: 160px;
+  height: 56px;
+  margin-top: 20px;
+}
+
+.imagelogothree {
+  background-image: url(../images/PastingImage/logos\ \(2\).png);
+  width: 160px;
+  height: 56px;
+  margin-top: px;
+}
+
+.imagelogo {
+  background-image: url(../images/PastingImage/logos\ \(3\).png);
+  width: 160px;
+  height: 40px;
+  margin-top: 40px;
+}
+
+.rightblock {
+  display: flex;
+  margin-left: 100px;
+}
+
+.imagecar {
+  width: 636px;
+  height: 660px;
+  background-image: url(../images/PastingImage/NeckCarImage.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  display: flex;
+  margin-top: 10px;
+}

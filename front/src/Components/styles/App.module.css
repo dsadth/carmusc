@@ -1,0 +1,6 @@
+body{
+    margin: 0;
+    display: flex;
+    overflow-x: hidden;
+    background-color: #141414;
+}

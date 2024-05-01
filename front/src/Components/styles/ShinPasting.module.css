@@ -1,0 +1,136 @@
+.cars{
+    width: 1920px;
+    height: 1028px;
+    display: flex;
+    position: absolute;
+    margin-top: 2450px;
+}
+
+.carsblocks{
+    display: flex;
+    margin-top: 200px;
+    position: absolute;
+}
+
+
+.heading{
+    color: white;
+    font-size: 52px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.points{
+    background-image: url(../images/points.png);
+    width: 146px;
+    height: 14px;
+    position: absolute;
+    margin-left: 887px;
+    margin-top: 130px;
+}
+
+.carone{
+    background-image: url(../images/pack/car\ \(2\).png);
+    width: 320px;
+    height: 280px;
+}
+
+.cartwo{
+    background-image: url(../images/pack/car\ \(5\).png);
+    width: 320px;
+    height: 280px;
+}
+.carthree{
+    background-image: url(../images/pack/car\ \(8\).png);
+    width: 320px;
+    height: 280px;
+}
+.carfour{
+    background-image: url(../images/pack/car\ \(11\).png);
+    width: 320px;
+    height: 280px;
+}
+.carfive{
+    background-image: url(../images/pack/car\ \(14\).png);
+    width: 320px;
+    height: 280px;
+}
+.carsix{
+    background-image: url(../images/pack/car\ \(17\).png);
+    width: 320px;
+    height: 280px;
+}
+
+.blocktwo{
+    position: absolute;
+    margin-top: 280px;
+    background-color: white;
+    display: flex;
+}
+.carseven{
+    background-image: url(../images/pack/car\ \(18\).png);
+    width: 320px;
+    height: 280px;
+}
+.careight{
+    background-image: url(../images/pack/car\ \(14\).png);
+    width: 320px;
+    height: 280px;
+}
+.carnine{
+    background-image: url(../images/pack/car\ \(13\).png);
+    width: 320px;
+    height: 280px;
+}
+.carten{
+    background-image: url(../images/pack/car\ \(10\).png);
+    width: 320px;
+    height: 280px;
+}
+.careleven{
+    background-image: url(../images/pack/car\ \(7\).png);
+    width: 320px;
+    height: 280px;
+}
+.cartwelve{
+    background-image: url(../images/pack/car\ \(4\).png);
+    width: 320px;
+    height: 280px;
+}
+
+.blockthree{
+    position: absolute;
+    margin-top: 560px;
+    background-color: white;
+    display: flex;
+}
+.carthirteen{
+    background-image: url(../images/pack/car\ \(2\).png);
+    width: 320px;
+    height: 280px;
+}
+.carfourteen{
+    background-image: url(../images/pack/car\ \(6\).png);
+    width: 320px;
+    height: 280px;
+}
+.carfiveteen{
+    background-image: url(../images/pack/car\ \(9\).png);
+    width: 320px;
+    height: 280px;
+}
+.carsixteen{
+    background-image: url(../images/pack/car\ \(12\).png);
+    width: 320px;
+    height: 280px;
+}
+.carseventeen{
+    background-image: url(../images/pack/car\ \(15\).png);
+    width: 320px;
+    height: 280px;
+}
+.careightten{
+    background-image: url(../images/pack/car\ \(17\).png);
+    width: 320px;
+    height: 280px;
+}

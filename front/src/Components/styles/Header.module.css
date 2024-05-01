@@ -1,0 +1,254 @@
+.header {
+  width: 1920px;
+  height: 1000px;
+  background-image: url(../images/Rectangle\ 64.png);
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: "Refact";
+  src: url(../fonts/Reformagroteskmediumc.otf);
+}
+
+@font-face {
+  font-family: "RefactBold";
+  src: url(../fonts/Reformagroteskboldc.otf);
+}
+
+.wrap {
+  display: flex;
+  margin-left: 312px;
+  margin-top: 40px;
+  width: 521px;
+  position: absolute;
+}
+
+
+
+.main {
+  font-family: Refact;
+  color: white;
+  font-size: 24px;
+  margin-left: 40px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.pasting {
+  font-family: Refact;
+  color: white;
+
+  font-size: 24px;
+  margin-left: 40px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.detailing {
+  font-family: Refact;
+  color: white;
+  font-size: 24px;
+  margin-left: 40px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.gallery {
+  font-family: Refact;
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+  margin-left: 40px;
+  line-height: 28px;
+}
+
+.menu {
+  background-image: url(../images/menu.png);
+  width: 50px;
+  height: 25px;
+  position: absolute;
+  margin-left: 1300px;
+  margin-top: 20px;
+}
+
+.logo {
+  font-family: RefactBold;
+  color: #db3138;
+  font-size: 150px;
+  margin-top: 237px;
+  position: absolute;
+  margin-left: 719px;
+  width: 483px;
+}
+
+.points {
+  background-image: url(../images/points.png);
+  width: 146px;
+  height: 14px;
+  position: absolute;
+  margin-top: 430px;
+  margin-left: 887px;
+}
+
+.paragraph {
+  font-family: Refact;
+  color: white;
+  font-weight: 200;
+  font-size: 40px;
+  margin-left: 40px;
+  position: absolute;
+  width: 437px;
+  margin-top: 486px;
+  margin-left: 742px;
+  text-align: center;
+}
+
+.button {
+  width: 200px;
+  height: 61px;
+  position: absolute;
+  margin-top: 670px;
+  margin-left: 888px;
+}
+
+.service {
+  color: white;
+  font-family: Refact;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 33px;
+  margin-top: 630px;
+  position: absolute;
+  margin-left: 890px;
+  width: 500px;
+  height: 34px;
+  z-index: 1;
+  display: flex;
+  cursor: pointer;
+}
+
+.connections {
+  display: flex;
+  width: 1920px;
+  height: 214px;
+  border-top: 1px solid white;
+  position: absolute;
+  margin-top: 786px;
+  border-bottom: 1px solid white;
+}
+
+.addres {
+  border-right: 1px solid white;
+  width: 640px;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.phone {
+  border-right: 1px solid white;
+  width: 640px;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.timework {
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-left: 265px;
+  margin-top: 20px;
+}
+
+.heading {
+  color: white;
+  font-family: Refact;
+  font-size: 30px;
+}
+
+.loremheading {
+  color: #db3138;
+  font-family: Refact;
+  line-height: 33px;
+  width: 264px;
+  margin-left: 30%;
+  font-weight: 600;
+}
+
+.lorem {
+  color: #db3138;
+  font-family: Refact;
+}
+
+.button {
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 144px;
+  height: 61px;
+  position: absolute;
+  margin-top: 300px;
+  border: 0;
+  font-family: Refact;
+  font-size: 20px;
+  z-index: 5;
+  background: none;
+  display: flex;
+}
+
+.button span {
+  width: 144px;
+}
+
+
+h2 {
+  display: block;
+  width: 200px;
+  height: 61px;
+  line-height: 40px;
+  font-size: 2px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  position: absolute;
+  transition: all 0.35s;
+  padding-top: 30px;
+  display: inline;
+}
+
+h2 span {
+  position: relative;
+  z-index: 2;
+  font-size: 25px;
+  height: 50px;
+  width: 144px;
+  display: flex;
+}
+
+h2:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff003b;
+  transition: all 0.35s;
+}
+
+h2:hover {
+  color: #fff;
+}
+
+h2:hover:after {
+  width: 100%;
+}
+
+
+
+a{
+  text-decoration: none;
+}

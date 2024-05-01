@@ -1,0 +1,28 @@
+
+
+.mySwiper {
+    width: 635PX;
+  height: 70px;
+  margin-top: 150px;
+}
+
+.imageone {
+  width: 900px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.swiper {
+  width: 20px;
+  position: absolute;
+  margin-top: 430px;
+}
+
+
+.swip{
+    width: 20px;
+    position: absolute;
+    display: flex;
+    margin-top: 635px;
+    margin-left: 972px;
+}

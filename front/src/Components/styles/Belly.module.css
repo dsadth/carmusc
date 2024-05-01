@@ -1,0 +1,143 @@
+@font-face {
+  font-family: Refact;
+  src: url(../fonts/Reformagroteskboldc.otf);
+}
+
+@font-face {
+  font-family: Refactmed;
+  src: url(../fonts/Reformagroteskmediumc.otf);
+}
+
+.belly {
+  width: 1920px;
+  height: 1000px;
+  background-color: #141414;
+  display: flex;
+}
+
+.leftblock {
+  width: 526px;
+  height: 662px;
+  display: flex;
+  margin-left: 312px;
+  margin-top: 180px;
+  position: absolute;
+}
+
+.topblock {
+  width: 526px;
+  position: absolute;
+  color: white;
+  display: flex;
+}
+
+.imagecar {
+  background-image: url(../images/imagecar.png);
+  width: 56px;
+  height: 70px;
+}
+
+.middleblock {
+  position: absolute;
+  margin-top: 252px;
+  color: white;
+  display: flex;
+}
+
+.imageinstumental {
+  background-image: url(../images/imageinstrumental\ \(1\).png);
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+}
+
+.footerblock {
+  position: absolute;
+  margin-top: 533px;
+  color: white;
+  display: flex;
+}
+
+.imagecartwo {
+  background-image: url(../images/imagecartwo.png);
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+}
+
+.heading {
+  position: absolute;
+  width: 526px;
+  height: 87px;
+  margin-left: 80px;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: Refact;
+}
+
+.paragraph {
+  position: absolute;
+  width: 526px;
+  height: 87px;
+  margin-top: 90px;
+  font-family: Refactmed;
+  font-size: 24px;
+}
+
+.pointsone {
+  background-image: url(../images/points.png);
+  width: 146px;
+  height: 14px;
+  position: absolute;
+  margin-top: 198px;
+  margin-left: 189px;
+}
+
+.pointstwo {
+  background-image: url(../images/points.png);
+  width: 146px;
+  height: 14px;
+  position: absolute;
+  margin-top: 479px;
+  margin-left: 189px;
+}
+
+.rightblock {
+  width: 636px;
+  height: 660px;
+  display: flex;
+  margin-left: 972px;
+  margin-top: 180px;
+}
+
+.imagecarbelly {
+  background-image: url(../images/carimagebelly.png);
+  width: 636px;
+  height: 550px;
+}
+
+.mySwiper {
+    width: 635PX;
+  height: 70px;
+  margin-top: 150px;
+}
+
+.imageone {
+  width: 900px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.swiper {
+  width: 20px;
+  position: absolute;
+}
+
+
+.swip{
+    width: 20px;
+    position: absolute;
+    display: flex;
+    margin-top: 635px;
+    margin-left: 972px;
+}

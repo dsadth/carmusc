@@ -1,0 +1,56 @@
+.collarbones {
+  display: flex;
+}
+
+.mySwiper {
+  width: 1400px;
+  height: 420px;
+  margin-top: 150px;
+  position: absolute;
+}
+
+.imageone {
+  width: 416px;
+  height: 420px;
+  background-image: url(../images/imageone.png);
+  background-repeat: no-repeat;
+}
+
+.imagetwo {
+  width: 416px;
+  height: 420px;
+  background-image: url(../images/imagetwo.png);
+  background-repeat: no-repeat;
+}
+
+.imagethree {
+  width: 416px;
+  height: 420px;
+  background-image: url(../images/imagethree.png);
+  background-repeat: no-repeat;
+}
+
+.swiper {
+  margin-top: 200px;
+  margin-left: 280px;
+}
+
+.redblock {
+  width: 366px;
+  height: 70px;
+  background-color: #db3138;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 315px;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  width: 286px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 345px;
+  z-index: 5;
+  margin-left: 65px;
+}

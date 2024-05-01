@@ -1,0 +1,297 @@
+@font-face {
+  font-family: Refact;
+  src: url(../fonts/Reformagroteskboldc.otf);
+}
+
+.footer {
+  display: flex;
+  width: 1920px;
+  height: 100px;
+  position: absolute;
+  margin-top: 120px;
+}
+
+.heading {
+  position: absolute;
+  font-family: Refact;
+  margin-left: 800px;
+}
+
+.points {
+  width: 146px;
+  height: 14px;
+  background-image: url(../images/points.png);
+  position: absolute;
+  margin-left: 890px;
+  margin-top: 100px;
+}
+
+.formblock {
+  position: absolute;
+  margin-top: 150px;
+  display: flex;
+  margin-left: 642px;
+}
+
+.inputName {
+  position: absolute;
+  width: 306px;
+  height: 47px;
+  background: none;
+  border: 1px solid white;
+  z-index: 5;
+}
+
+.inputPhone {
+  position: absolute;
+  width: 306px;
+  height: 47px;
+  background: none;
+  border: 1px solid white;
+  margin-left: 350px;
+  z-index: 5;
+}
+
+.inputAsk {
+  position: absolute;
+  width: 526px;
+  height: 150px;
+  background: none;
+  border: 1px solid white;
+  margin-top: 100px;
+  z-index: 5;
+}
+
+.bottomblock {
+  position: absolute;
+  margin-left: 600px;
+}
+
+.blockright {
+  width: 40px;
+  height: 180px;
+  position: absolute;
+  margin-left: 1260px;
+  margin-top: 240px;
+  align-items: center;
+}
+
+.tgblock {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  align-items: center;
+}
+
+.tg {
+  background-image: url(../images/tg.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.wkblock {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  margin-top: 20px;
+}
+
+.wk {
+  background-image: url(../images/wk.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.youtubeblock {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.youtube {
+  background-image: url(../images/pupub.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.bottomblock {
+  display: flex;
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  margin-top: 160px;
+}
+
+.imagepoint {
+  background-image: url(../images/imagepoint.png);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background-repeat: no-repeat;
+  margin-top: 275px;
+  margin-left: 265px;
+}
+
+.headinggps {
+  width: 500px;
+
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 270px;
+  font-size: 26px;
+}
+
+.headingphone {
+  width: 500px;
+
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 320px;
+  font-size: 23px;
+}
+
+.headingemail {
+  width: 500px;
+
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 319px;
+  font-size: 23px;
+}
+
+.imagephone {
+  background-image: url(../images/imagephone\ \(1\).png);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background-repeat: no-repeat;
+  margin-top: 325px;
+  margin-left: 265px;
+}
+.imagemessage {
+  background-image: url(../images/imagemessage.png);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background-repeat: no-repeat;
+  margin-top: 325px;
+  margin-left: 465px;
+}
+
+.footermenu {
+  display: flex;
+  position: absolute;
+  margin-top: 650px;
+  border-top: 1px solid white;
+  width: 1920px;
+}
+
+.headingfootermenu {
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 312px;
+}
+
+.footermenumain {
+  font-size: 24px;
+}
+
+.footermenupasting {
+  font-size: 24px;
+  margin-left: 40px;
+}
+
+.footermenudetail {
+  font-size: 24px;
+  margin-left: 40px;
+}
+
+.footermenugallery {
+  font-size: 24px;
+  margin-left: 40px;
+}
+
+.footermenulist {
+  display: flex;
+  margin-left: 187px;
+  margin-top: 35px;
+}
+
+.button {
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  height: 61px;
+  position: absolute;
+  margin-top: 290px;
+  margin-left: 70px;
+  border: 0;
+  font-family: Refact;
+  font-size: 24px;
+  z-index: 5;
+  background: none;
+  cursor: pointer;
+}
+
+.button h2 {
+  padding-left: 20px;
+  padding-top: 25px;
+}
+
+.button span{
+  width: 0;
+}
+
+h2 {
+  display: block;
+  width:px;
+  height: 61px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+  padding-top: 20px;
+}
+
+h2 span {
+  position: relative;
+  z-index: 2;
+}
+
+h2:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff003b;
+  transition: all 0.35s;
+}
+
+h2:hover {
+  color: #fff;
+}
+
+h2:hover:after {
+  width: 100%;
+}

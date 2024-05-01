@@ -1,0 +1,7 @@
+.pasting{
+    width: 1920px;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    display: flex;
+}

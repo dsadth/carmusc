@@ -1,0 +1,156 @@
+@font-face {
+  font-family: Refact;
+  src: url(../fonts/Reformagroteskboldc.otf);
+}
+
+h1{
+  font-family: Refact;
+}
+
+span{
+  font-family: Refact;
+  font-size: 24px;
+}
+
+.BellyPasting {
+  width: 1920px;
+  height: 827px;
+  display: flex;
+  position: absolute;
+  margin-top: 1800px;
+}
+
+.item {
+  padding-left: 50px;
+}
+
+.topblock {
+  position: absolute;
+  padding-left: 150px;
+  display: flex;
+}
+
+.textOne {
+  margin-left: 100px;
+}
+
+.textTwo {
+  margin-left: 300px;
+}
+
+.textThree {
+  margin-left: 300px;
+}
+
+.textFour {
+  padding-left: 300px;
+}
+
+.textFive {
+  padding-left: 300px;
+}
+
+.textClass {
+  font-size: 20px;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 190px;
+  text-align: center;
+  color: #DB3138;
+}
+
+.blocktwo {
+  display: flex;
+}
+
+.priceOne{
+  position: absolute;
+  margin-left: 590px;
+  margin-top: 120px;
+  font-size: 24px;
+}
+
+.priceTwo{
+  position: absolute;
+  margin-left: 875px;
+  margin-top: 120px;
+  font-size: 24px;
+}
+
+.priceThree{
+  position: absolute;
+  margin-left: 1180px;
+  margin-top: 120px;
+  font-size: 24px;
+}
+
+.priceFour{
+  position: absolute;
+  margin-left: 1480px;
+  margin-top: 120px;
+  font-size: 24px;
+}
+
+.blockthree{
+  margin-top: 100px;
+
+}
+
+
+
+.blockfour{
+  margin-top: 200px;
+}
+
+.blockfive{
+  margin-top: 300px;
+}
+
+
+.borderone{
+  border-top: 1px solid white;
+  width: 1500px;
+  position: absolute;
+  margin-left: 150px;
+}
+
+.bordertwo{
+  border-top: 1px solid white;
+  width: 1500px;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.borderthree{
+  border-top: 1px solid white;
+  width: 1500px;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 190px;
+}
+
+.borderfour{
+  border-top: 1px solid white;
+  width: 1500px;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 290px;
+}
+
+.borderfive{
+  border-top: 1px solid white;
+  width: 1500px;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 390px;
+}
+
+
+.bordersix{
+  border-top: 1px solid white;
+  width: 1500px;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 490px;
+}

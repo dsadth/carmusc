@@ -1,0 +1,141 @@
+@font-face {
+  font-family: Refact;
+  src: url(../fonts/Reformagroteskboldc.otf);
+}
+
+.hips {
+  width: 1296px;
+  height: 771px;
+  display: flex;
+  margin-left: 300px;
+}
+
+.heading {
+  color: white;
+  font-family: Refact;
+  height: 72px;
+  font-size: 52px;
+  position: absolute;
+  width: 500px;
+  margin-left: 510px;
+  display: flex;
+}
+
+.points {
+  background-image: url(../images/points.png);
+  width: 146px;
+  height: 14px;
+  position: absolute;
+  margin-left: 560px;
+  display: flex;
+  margin-top: 150px;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: Refact;
+  color: white;
+  border: none;
+  background: none;
+  display: flex;
+}
+
+.buttonnot {
+  width: 200px;
+  height: 50px;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: Refact;
+  color: white;
+  border: none;
+  display: flex;
+  text-align: center;
+}
+
+.block {
+  width: 500px;
+  height: 500px;
+  display: flex;
+}
+
+.infopaste {
+  position: absolute;
+  display: flex;
+}
+
+.buttons {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 530px;
+  display: flex;
+}
+
+.buttons {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 119px;
+  height: 61px;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 530px;
+  border: 0;
+  font-family: Refact;
+  font-size: 24px;
+  z-index: 5;
+  background: none;
+  margin-top: 3600px;
+  cursor: pointer;
+}
+
+.buttons span {
+  width: 0;
+}
+
+.buttons h2{
+  padding-left: 50px;
+}
+
+h2 {
+  display: block;
+  width: 119px;
+  height: 61px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+  padding-top: 20px;
+}
+
+h2 span {
+  position: relative;
+  z-index: 2;
+  font: 40px Refact;
+}
+
+h2:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff003b;
+  transition: all 0.35s;
+}
+
+h2:hover {
+  color: #fff;
+}
+
+h2:hover:after {
+  width: 100%;
+}

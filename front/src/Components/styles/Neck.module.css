@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Refact;
+  src: url(../fonts/Reformagroteskboldc.otf);
+}
+
+.neck {
+  width: 1920px;
+  height: 1000px;
+  background-color: #141414;
+  display: flex;
+}
+
+.achivments {
+  width: 1296px;
+  height: 745px;
+  position: absolute;
+  margin-left: 312px;
+  margin-top: 160px;
+  color: white;
+  font-family: Refact;
+  font-size: 40px;
+  line-height: 72px;
+  width: 800px;
+  height: 146px;
+  display: flex;
+}
+
+.points {
+  background-image: url(../images/points.png);
+  width: 146px;
+  height: 14px;
+  position: absolute;
+  margin-top: 270px;
+}
+
+.paragraph {
+  font-size: 24px;
+  position: absolute;
+  font-family: Refact;
+  margin-top: 350px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.blocks {
+  width: 318px;
+  height: 708px;
+  border: 1px solid white;
+  position: absolute;
+  margin-left: 850px;
+}
+
+.oneblock {
+  width: 318px;
+  height: 177px;
+  border-bottom: 1px solid white;
+}
+
+.twoblock {
+  width: 318px;
+  height: 177px;
+  border-bottom: 1px solid white;
+}
+
+.threeblock {
+  width: 318px;
+  height: 177px;
+  border-bottom: 1px solid white;
+}
+
+.fourblock {
+  width: 318px;
+  height: 177px;
+}
+
+.blockstwo {
+  width: 318px;
+  height: 708px;
+  border: 1px solid white;
+  position: absolute;
+  margin-left: 1170px;
+  margin-top: 50px;
+}
+
+.onetwoblock {
+  width: 318px;
+  height: 177px;
+  border-bottom: 1px solid white;
+}
+
+.twotwoblock {
+  width: 318px;
+  height: 177px;
+  border-bottom: 1px solid white;
+}
+
+.threetwoblock {
+  width: 318px;
+  height: 177px;
+  border-bottom: 1px solid white;
+}
+
+.fourtwoblock {
+  width: 318px;
+  height: 177px;
+  border-bottom: 1px solid white;
+}
+
+.number {
+  position: absolute;
+  margin-left: 142px;
+  color: #db3138;
+  margin-top: 20px;
+  font-family: Refact;
+}
+
+.paragraphblock {
+  font-size: 16px;
+  position: absolute;
+  width: 277px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 97px;
+  margin-left: 27px;
+}
+
+.cubok {
+  background-image: url(../images/cubok.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: 141px;
+  margin-top: 30px;
+}
